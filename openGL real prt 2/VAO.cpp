@@ -1,5 +1,5 @@
-#include "VAO.h"
 
+/*
 VAO::VAO()
 {
 	glGenVertexArrays(1, &ID);
@@ -11,11 +11,11 @@ VAO::VAO()
 
 void VAO::LinkVBO(VBO VBO, GLuint layout)
 {
-	VBO.Bind()
+	VBO.Bind();
 	glVertexAttribPointer(layout, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
 	//enables the vertex attribute
 	glEnableVertexAttribArray(layout);
-	VBO.Unbind()
+	VBO.Unbind();
 }
 
 void VAO::Bind()
@@ -32,3 +32,4 @@ void VAO::Delete()
 {
 	glDeleteVertexArrays(1, &ID);
 }
+*/

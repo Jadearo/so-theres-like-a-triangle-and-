@@ -1,6 +1,2 @@
-﻿  ShaderClass.cpp
-C:\openGL stuf\openGL real prt 2\ShaderClass.cpp(5,34): error C2275: 'std::ios': expected an expression instead of a type
-C:\openGL stuf\openGL real prt 2\ShaderClass.cpp(5,37): error C2059: syntax error: ':'
-  Source.cpp
-C:\openGL stuf\openGL real prt 2\Source.cpp(71,16): error C2065: 'shaderProgram': undeclared identifier
-  Generating Code...
+﻿  Source.cpp
+  openGL real prt 2.vcxproj -> C:\openGL stuf\openGL real prt 2\x64\Debug\openGL real prt 2.exe

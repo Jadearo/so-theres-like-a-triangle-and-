@@ -1,8 +1,12 @@
+
+/*
 #include"shaderclass.h"
+#include<iostream>
+
 
 std::string get_file_contents(const char* filename)
 {
-	std::ifstream in(filename, std::ios:binary);
+	std::ifstream in(filename, std::ios::binary);
 	if (in)
 	{
 		std::string contents;
@@ -52,3 +56,5 @@ void shader::Delete()
 {
 	glDeleteProgram(ID);
 }
+
+*/
